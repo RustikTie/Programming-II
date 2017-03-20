@@ -1,32 +1,29 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <iostream>
+#include "header.h"
 using namespace std;
 
-void doubleNum(unsigned short &num) { //the & changes the variable outside as well, if it wasn't there the variable wouldn't change
-
-	num = num*2;
-
-}
-
 int main() {
+
+
 	/////////////////POINTERS/////////////////
 	/*void checkConstness(int *ptr) {
-		*ptr = 0;
-		ptr++;
+	*ptr = 0;
+	ptr++;
 	}
 
 	void checkConstness(const int *ptr) {
-		*ptr = 0;
-		ptr++;
+	*ptr = 0;
+	ptr++;
 	}
 	void checkConstness(int* const ptr) {
-		*ptr = 0;
-		ptr++;
+	*ptr = 0;
+	ptr++;
 	}
 	void checkConstness(const int* const ptr) {
-		*ptr = 0;
-		ptr++;
+	*ptr = 0;
+	ptr++;
 	}*/
 
 	/*--------------EXERCISES CONST--------------*/
@@ -41,10 +38,9 @@ int main() {
 
 	/*--------------EXERCISE 2 --------------*/
 
+	//CLASSES
 
+	/*-------------EXERCISE 1-------------*/
 
-	getchar(); getchar();
-	return 0;
 
 }
-

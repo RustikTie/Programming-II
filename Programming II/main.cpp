@@ -62,6 +62,8 @@ int main() {
 
 	/*--------------FRIENDS--------------*/
 
+	cout << endl << "FRIENDS EXERCISES" << endl;
+
 	Warehouse w("Wayne Enterprises", 4, 7, 10);
 
 	w.printfResources();

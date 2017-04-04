@@ -2,6 +2,9 @@
 #include <stdlib.h>
 #include <iostream>
 #include "header.h"
+#include "Building.h"
+#include "Warehouse.h"
+
 
 using namespace std; 
 
@@ -56,4 +59,14 @@ int main() {
 	cout << "Suma floats:" << suma<float>(2.5f, 5.5f) << endl;
 
 	system("pause");
+
+	/*--------------FRIENDS--------------*/
+
+	Warehouse w("Wayne Enterprises", 4, 7, 10);
+
+	w.printfResources();
+	
+	system("pause");
+
+	
 }

@@ -111,14 +111,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="color.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="functions.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Building.h" />
-    <ClInclude Include="color.h" />
     <ClInclude Include="header.h" />
+    <ClInclude Include="House.h" />
+    <ClInclude Include="Temple.h" />
     <ClInclude Include="Warehouse.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

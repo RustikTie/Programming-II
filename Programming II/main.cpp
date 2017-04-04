@@ -4,7 +4,8 @@
 #include "header.h"
 #include "Building.h"
 #include "Warehouse.h"
-
+#include "House.h"
+#include "Temple.h"
 
 using namespace std; 
 
@@ -60,12 +61,17 @@ int main() {
 
 	system("pause");
 
-	/*--------------FRIENDS--------------*/
+	/*--------------INHERITANCE--------------*/
 
+	cout << endl << "INHERITANCE EXERCISES" << endl;
 	Warehouse w("Wayne Enterprises", 4, 7, 10);
+	House h("Wayne Manor", 30, 1, 1);
+	Temple t("Something", "Poseidon", 3);
 
 	w.printfResources();
-	
+	h.printHouse();
+	t.printTemple();
+
 	system("pause");
 
 	

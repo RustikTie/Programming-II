@@ -6,6 +6,7 @@
 #include "Warehouse.h"
 #include "House.h"
 #include "Temple.h"
+#include "Pokemon.h"
 
 using namespace std; 
 
@@ -74,5 +75,8 @@ int main() {
 
 	system("pause");
 
-	
+	/*--------------POLYMORPHISM--------------*/
+	cout << endl << "POLYMORPHISM EXERCISES" << endl;
+
+
 }

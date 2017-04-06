@@ -118,6 +118,7 @@
     <ClInclude Include="Building.h" />
     <ClInclude Include="header.h" />
     <ClInclude Include="House.h" />
+    <ClInclude Include="Pokemon.h" />
     <ClInclude Include="Temple.h" />
     <ClInclude Include="Warehouse.h" />
   </ItemGroup>

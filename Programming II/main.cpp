@@ -78,9 +78,11 @@ int main() {
 
 	/*--------------POLYMORPHISM--------------*/
 	cout << endl << "POLYMORPHISM EXERCISES" << endl;
+	system("pause");
 
 	/*--------------POLYMORPHISM 2--------------*/
 	cout << endl << "POLYMORPHISM EXERCISES: CHESS" << endl;
+	system("pause");
 
 
 

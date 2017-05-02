@@ -4,6 +4,7 @@
 #include "header.h"
 #include "Building.h"
 #include "Warehouse.h"
+#include "Stack.h"
 
 
 using namespace std; 
@@ -67,8 +68,23 @@ int main() {
 	Warehouse w("Wayne Enterprises", 4, 7, 10);
 
 	w.printfResources();
-	
+
 	system("pause");
 
+	/*-----------DATA STRUCTURES----------*/
+
+	cout << endl << "DATA STRUCTURE EXERCISES" << endl;
+
+	Stack<int> Stack(10);
+	Stack.push(5);
+	Stack.push(1);
+	Stack.push(7);
 	
+	Stack.print();
+
+	Stack.pop();
+	Stack.print();
+
+
+	system("pause");
 }

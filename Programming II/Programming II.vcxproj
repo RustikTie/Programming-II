@@ -119,6 +119,8 @@
     <ClInclude Include="color.h" />
     <ClInclude Include="header.h" />
     <ClInclude Include="House.h" />
+    <ClInclude Include="List.h" />
+    <ClInclude Include="Queue.h" />
     <ClInclude Include="Stack.h" />
     <ClInclude Include="Warehouse.h" />
   </ItemGroup>

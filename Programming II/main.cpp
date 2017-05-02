@@ -5,7 +5,7 @@
 #include "Building.h"
 #include "Warehouse.h"
 #include "Stack.h"
-
+#include "Queue.h"
 
 using namespace std; 
 
@@ -74,6 +74,7 @@ int main() {
 	/*-----------DATA STRUCTURES----------*/
 
 	cout << endl << "DATA STRUCTURE EXERCISES" << endl;
+	cout << endl << "//THE STACK//" << endl;
 
 	Stack<int> Stack(10);
 	Stack.push(5);
@@ -87,4 +88,14 @@ int main() {
 
 
 	system("pause");
+
+	cout << endl << "//THE QUEUE//" << endl;
+
+	system("pause");
+
+
+	cout << endl << "//THE LISTS//" << endl;
+	system("pause");
+
+
 }

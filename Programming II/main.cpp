@@ -97,5 +97,10 @@ int main() {
 	cout << endl << "//THE LISTS//" << endl;
 	system("pause");
 
+	cout << endl << "//THE STRINGS//" << endl;
+	system("pause");
+
+
+
 
 }

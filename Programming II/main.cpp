@@ -100,7 +100,64 @@ int main() {
 	cout << endl << "//THE STRINGS//" << endl;
 	system("pause");
 
+	/*-----------RECURSIVE----------*/
+
+	cout << endl << "RECURSIVE" << endl;
+
+	countUp(19);
 
 
 
+}
+
+void countUp(unsigned int val) {
+	if (val != 0)
+		countUp(val - 1);
+
+	std::cout << val << "\n" << std::endl;
+}
+
+int numTrues(bool vec[], int sizeVec, unsigned int index) {
+	if (index == sizeVec - 1) {
+		if (vec[index])
+			return 1;
+		else
+			return 0;
+	}
+	else {
+		if (vec[index])
+			return 1 + numTrues(vec, sizeVec, index + 1);
+		else
+			return 0 + numTrues(vec, sizeVec, index + 1);
+
+	}
+}
+
+bool searchRec(int vec[], int sizeVec, unsigned int index, int val) {
+	if (index >= 0 && index < sizeVec) {
+		if (vec[index] == val)
+			return true;
+		else
+			return (false || searchRec(vec, sizeVec, index + 1, val));
+
+
+	}
+	else {
+		return false;
+	}
+}
+
+int sumElemsRec(int vec[], unsigned int sizeVec, unsigned int index) {
+	if (index >= 0 && index < sizeVec) {
+		if (index == sizeVec - 1) {
+			return vec[index];
+		}
+		else
+			return vec[index] + sumElemsRec(vec, sizeVec, index + 1);
+		}
+	else
+	{
+		return 0;
+	}
+	
 }
